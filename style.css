@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: radial-gradient(
+      circle at 73% 14%,
+      rgba(160, 160, 160, 0.05) 0%,
+      rgba(160, 160, 160, 0.05) 50%,
+      rgba(27, 27, 27, 0.05) 50%,
+      rgba(27, 27, 27, 0.05) 100%
+    ),
+    radial-gradient(
+      circle at 22% 0%,
+      rgba(251, 251, 251, 0.05) 0%,
+      rgba(251, 251, 251, 0.05) 50%,
+      rgba(219, 219, 219, 0.05) 50%,
+      rgba(219, 219, 219, 0.05) 100%
+    ),
+    radial-gradient(
+      circle at 89% 57%,
+      rgba(49, 49, 49, 0.05) 0%,
+      rgba(49, 49, 49, 0.05) 50%,
+      rgba(206, 206, 206, 0.05) 50%,
+      rgba(206, 206, 206, 0.05) 100%
+    ),
+    linear-gradient(90deg, rgb(238, 131, 122), rgb(184, 12, 194));
+  height: 100vh;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  padding: 20px;
+  font-size: 50px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  row-gap: 0;
+  column-gap: 0;
+}
+
+.case {
+  height: 100px;
+  width: 100px;
+  border: solid 1px white;
+}
+
+.case.white {
+  background: rgba(255, 255, 255, 0.65);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(13.5px);
+  -webkit-backdrop-filter: blur(13.5px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.img {
+  background-image: url('./images/jeu1.png');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.tour1-b,
+.tour2-b {
+ background-position-y: -50px;
+ background-position-x: 20px;
+}
+.cavalier1-b,
+.cavalier2-b {
+ background-position-y: -50px;
+ background-position-x: -70px;
+}
+.fou1-b,
+.fou2-b {
+ background-position-y: -50px;
+ background-position-x: -160px;
+}
+.reine-b {
+ background-position-y: -50px;
+ background-position-x: -340px;
+ 
+}
+.roi-b {
+ background-position-y: -50px;
+ background-position-x: -252px;
+}
+.pion1-b,
+.pion2-b, 
+.pion3-b, 
+.pion4-b, 
+.pion5-b, 
+.pion6-b, 
+.pion7-b, 
+.pion8-b {
+ background-position-y: -50px;
+ background-position-x: -525px;
+}
+.pion1-n,
+.pion2-n, 
+.pion3-n, 
+.pion4-n, 
+.pion5-n, 
+.pion6-n, 
+.pion7-n, 
+.pion8-n {
+ background-position-y: -150px;
+ background-position-x: -528px;
+}
+
+.tour1-n,
+.tour2-n {
+ background-position-y: -150px;
+ background-position-x: 20px;
+}
+.cavalier1-n,
+.cavalier2-n {
+ background-position-y: -150px;
+ background-position-x: -70px;
+}
+.fou1-n,
+.fou2-n {
+ background-position-y: -150px;
+ background-position-x: -160px;
+}
+.reine-n {
+ background-position-y: -150px;
+ background-position-x: -340px;
+ 
+}
+.roi-n {
+ background-position-y: -150px;
+ background-position-x: -252px;
+}
